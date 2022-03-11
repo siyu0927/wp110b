@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>table,th,td
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    tr:nth-child(even){background-color: aquamarine;}
+    tr:hover{background-color: blueviolet;}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="icon.ico">
+    <meta name="keyworks" content="網頁設計第一周">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <h1 id="1">h1字型</h1>
+    <h2>h2字型</h2>
+    <h3>h3字型</h3>
+    <h4>h4字型</h4>
+    <h5>h5字型</h5>
+    <h6>h6字型</h6>
+    <p>p字型</p>
+    <a href = "https://youtube.com">連結示範</a>
+    <br><br>
+    <img src="示範圖片.jpg" alt = "無法顯示" width="200" height = "300">
+    <p>br可以插在字的中間,像<br>這樣</p>
+    <p style="color:aqua">字改顏色</p>
+    <p title='屬性'>滑鼠移到這行就會出現小標示</p>
+    <p><b><i>b跟strong是字體會變粗,i跟em是字體變斜</i></b></p>
+    <h1 style="font: size 30px;">可以自行設定字體大小</h1>
+    <p>hr是加一條黑色實線</p><hr>
+    <pre>pre都可以照程式碼的空格跟換行出現,像這樣      空格
+        
+        換行    空格</pre>
+    <p style="background-color:bisque">背景顏色可以改變</p>
+    <P style="font-family: cursive;">可以改變字體</P>
+    <p style="text-align:center">置中</p>
+    <p>正常,<sub>下標</sub>,正常,<sup>上標</sup></p>
+    <p><small>字變小</small>正常的字</p>
+    <p>文字標記:<mark>標記</mark></p>
+    <p><del>刪除線</del><ins>底線</ins></p>
+    <blockquote>格言自己會縮排,然後稍微靠中間</blockquote>
+    <p><q>q可以加雙引號</q></p>
+    <p>縮寫範例:<abbr title="World Health Organization">WHO</abbr></p>
+    <address>address跟cite會自動變斜</address><br>
+    <bdo dir="rtl">這行會從右到左</bdo>
+    <!--不會出現的註解-->
+    <h1 style="border: 2px solid red;">文字外框</h1>
+    <a href = "https://youtube.com"target="_blank">連結示範</a><br>
+    <p>下圖就是連結</p>
+    <a href="https://youtube.com"><img src="示範圖片.jpg" alt="無法顯示" style="height: 50px;width: 40px;"></a>
+    <p><a href="mailto:yesfish0927@gmail.com">傳送郵件</a></p>
+    <a href="https://youtube.com">
+        <button>連結按鈕</button>
+    </a><br>
+    <a href="#1">跳到字型</a>
+    <p>下面圖片只有一部分可以連結</p>
+    <img src="示範圖片.jpg" alt="無法顯示" usemap="#drink" style="height: 379px;width: 400px;">
+    <map name="drink">
+        <area shape="rect" coords="34,44,270,350" alt="無法顯示" href="https://youtube.com">
+    </map>
+    <p>下面圖片調整頁面變小會變成不同照片哦</p>
+    <picture>
+        <source media="(min-width: 600px)" srcset="示範圖片.jpg">
+        <img src="示範圖片1.jpg" style="width: 700px; ">
+    </picture>
+    <table style="width: 600px;">
+        <caption>格子標題</caption>
+        <tr>
+            <th colspan="2">A</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td> 
+        </tr>
+    </table>
+    <h3>清單</h3>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <h3>清單</h3>
+    <ol>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <h3>清單</h3>
+    <dl>
+        <dt>前面</dt>
+        <dd>-後面</dd>
+        <dt>前面</dt>
+        <dd>-後面</dd>
+    </dl>
+    <p>字可以被框起來,像<span style="border: 1px solid black;">這樣</p>
+    <p><a href="https://youtube.com" target="iframe_a">iframe連結</a></p>
+</html>
