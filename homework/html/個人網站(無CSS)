@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>思妤的網站</h2>
+    <img src="照片.jpg" width="20%" height="20%" >
+    <p>生日:91/09/27</p>
+    <a href="https://www.instagram.com/siyu0927/">ig連結</a>
+    <table>
+        <caption>求學過程</caption>
+        <tr>
+            <th>幼稚園</th>
+            <th>國小</th>
+            <th>國中</th>
+            <th>高中</th>
+            <th>大學</th>
+        </tr>
+        <tr>
+            <td>四季幼稚園</td>
+            <td>文心國小</td>
+            <td>崇德國中</td>
+            <td>東海大學附屬高中</td>
+            <td>金門大學資訊工程學系</td>
+        </tr>
+    </table>
+    <h2>高中經歷</h2>
+    <img src="熱音.jpg" width="20%" height="20%">
+    <p>加入熱音社,並在二年級當上器材長,高中三年參加,舉辦,表演過將近15場</p>
+    <img src="糾察.jpg" width="20%" height="20%">
+    <p>參加糾察隊,在二年級時當上統計長,三年以來協助學校舉辦各項活動,並在每天上放學時間維持交通順暢</p>
+    <h2>大學經歷</h2>
+    <img src="大專盃.jpg" width="40%" height="40%">
+    <p>大一上以校隊女排球經身分回本島比110 排球大專盃</p>
+    <p>現在是校隊男排球經及系隊排球球經</p>
+</body>
+</html>
