@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>輸出特殊字元:</p>
+    <ol>&nbsp;(空白)</ol>
+    <ol>&lt; &gt;</ol>
+    <ol>&amp;</ol>
+    <ol>&quot; &apos;</ol>
+    <h2>輸入型表單</h2>
+    <form>
+        <label for="第一格">第一格:</label><br>
+        <input type="text" id="第一格" name="第一格" value="內容1"><br>
+        <label for="第二格">第二格:</label><br>
+        <input type="text" id="第二格" name="第二格" value="內容2"><br>
+        <label for="第三格">第三格:</label><br>
+        <input type="text" id="第三格" name="第三格" value="內容3"><br><br>
+        <input type="submit" value="送出">
+        <!--沒有伺服器接收,所以送出不會有結果-->
+    </form>
+    <h2>選擇型表單,三選一</h2>
+    <form>
+        <label for="選擇1">選擇1:</label><br>
+        <input type="radio" id="選擇1" name="選擇" value="選項1"><br>
+        <label for="選擇2">選擇2:</label><br>
+        <input type="radio" id="選擇2" name="選擇" value="選項2"><br>
+        <label for="選擇3">選擇3:</label><br>
+        <input type="radio" id="選擇3" name="選擇" value="選項3"><br>
+    </form>
+    <h2>勾選型表單,加一個沒用的按鈕</h2>
+    <form>
+        <label for="選擇1">選擇1:</label><br>
+        <input type="checkbox" id="選擇1" name="選擇1" value="選項1"><br>
+        <label for="選擇2">選擇2:</label><br>
+        <input type="checkbox" id="選擇2" name="選擇2" value="選項2"><br>
+        <label for="選擇3">選擇3:</label><br>
+        <input type="checkbox" id="選擇3" name="選擇3" value="選項3"><br>
+        <input type="button" value="試試看按鈕">
+    </form>
+    <h2>挑選型表單,加框起來</h2>
+    <form>
+        <fieldset>
+            <legend>框起來的字</legend>
+            <label for="選擇">挑選時間</label>
+            <select id="選擇" name="選擇">
+                <option value="選擇1">選擇1</option>
+                <option value="選擇2">選擇2</option>
+                <option value="選擇3">選擇3</option>
+                <option value="選擇4">選擇4</option>
+            </select>
+            <input type="button" value="按鈕">
+        </fieldset>
+    </form>
+    <h2>固定可多選的表單,需要用Ctrl</h2>
+    <form>
+        <label for="選擇">挑選時間</label>
+        <select id="選擇" name="選擇" size="3" multiple>
+            <option value="選項1">選項1</option>
+            <option value="選項2">選項2</option>
+            <option value="選項3">選項3</option>
+        </select>
+        <input type="submit">
+    </form>
+    <h2>輸入框</h2>
+    <form>
+        <textarea name="輸入框" rows="10" cols="30">輸入內容</textarea>
+        <input type="submit">
+    </form>
+    <h2>彈出視窗按鈕</h2>
+    <button type="button" onclick="alert('彈出內容')">按鈕</button>
+    <h2>輸入和選擇結合的表單</h2>
+    <form>
+        <input list="選單" name="選單">
+        <datalist id="選單">
+            <option value="選項1">選項1</option>
+            <option value="選項2">選項2</option>
+            <option value="選項3">選項3</option>
+        </datalist>
+        <input type="submit">
+    </form>
+    <h2>拉調型選擇</h2>
+    <form>
+        0
+        <input type="range" id="a" name="a" value="50">
+        100<br><br>
+        <input type="number" id="b" name="b" value="50">
+    </form>
+    <h2>type測試</h2>
+    <form>
+    <label for="顏色">顏色</label>
+    <input type="color" id="顏色" name="顏色"><br>
+    <label for="日期">日期</label>
+    <input type="date" id="日期" name="日期"><br>
+    <label for="日期時間">日期時間</label>
+    <input type="datetime-local" id="日期時間" name="日期時間"><br>
+    <label for="郵件">郵件</label>
+    <input type="email" id="郵件" name="郵件"><br>
+    <label for="文件">文件</label>
+    <input type="file" id="文件" name="文件"><br>
+    <label for="隱藏">隱藏的東西</label>
+    <input type="hidden" id="隱藏" name="隱藏"><br>
+    <label for="圖片">圖片</label>
+    <input type="image" name="圖片" src="示範圖片.jpg" width="50" height="50"><br>
+    <label for="月份">月份</label>
+    <input type="month" id="月份" name="月份"><br>
+    <label for="密碼">密碼</label>
+    <input type="password" id="密碼" name="密碼"><br>
+    <label for="重設">重設</label>
+    <input type="reset" id="重設" name="重設"><br>
+    <label for="搜尋">搜尋</label>
+    <input type="search" id="搜尋" name="搜尋"><br>
+    <label for="電話">電話(0912345678)</label>
+    <input type="tel" id="電話" name="電話" pattern="[0-9]{10}"><br>
+    <label for="時間">時間</label>
+    <input type="time" id="時間" name="時間"><br>
+    <label for="網址">網址</label>
+    <input type="url" id="網址" name="網址"><br>
+    <label for="周">周</label>
+    <input type="week" id="周" name="周"><br>
+    </form>
+    <h2>有限定最多輸入,提示的字,一定要輸入,autofocus跳數字的</h2>
+    <form>
+        <label for="數字">最多8</label>
+        <input type="text" id="數字" name="數字" maxlength="8" size="10" placeholder="提示的字" required><br>
+        <label for="跳數字">跳數字</label>
+        <input type="number" id="跳數字" name="跳數字" step="5" value="0" autofocus><br>
+        <label for="第一格">顯示過去紀錄:</label><br>
+        <input type="text" id="第一格" name="第一格" value="內容1" autocomplete="on"><br>
+    </form>
+    <video height="400" controls>
+        <source src="示範影片.mp4" type="video/mp4">
+    </video>
+    <h2>音檔撥放(沒有可播的)</h2>
+    <audio controls>
+        <source src="音樂.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
