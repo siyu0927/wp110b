@@ -12,6 +12,9 @@ https://tokyo-kitchen.icook.network/uploads/recipe/cover/407905/9f28e47c9c866108
 ## 創作動機:
 在趙于翔老師的程式設計課中有幻燈片的作業,於是嘗試用html做出來  
 ## 使用方法:
+### 手動幻燈片
 ![](https://i.imgur.com/mFtwGjB.png)  
 圖片兩側的箭頭分別可前往前一張和後一張  
 共有5張圖片,到最後一張圖片時下一張會是第一張  
+### 自動幻燈片
+會自動撥放,1秒一張  
